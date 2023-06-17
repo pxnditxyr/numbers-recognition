@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #20212A;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.canvas {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #20212A;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-clear {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.btn-save {
+  background-color: #00cc99;
+  color: #fff;
+}
+
+.btn-predict {
+  background-color: #ff9933;
+  color: #fff;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
